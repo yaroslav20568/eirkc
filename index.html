@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>[[*longtitle]]</title>
+    <base href="[[++site_url]]" />
+    <meta name="description" content="[[*description]]">
+    <meta name="keywords" content="[[*keywords]]">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P7PMKHB');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400,700%3Alatin%7CMontserrat%3A700%3Alatin" />
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https: //fonts.googleapis.com/css2?family= Roboto: wght @400;700 & display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="assets/css/fontAwesome.css"/> -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+
+
+    <link rel="stylesheet" href="assets/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="assets/css/shop.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <style type="text/css">
+        .tabs {
+            display: inline-block;
+        }
+
+        .tabs>div {
+            padding-top: 10px;
+        }
+
+        .tabs ul {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .tabs ul:after {
+            content: "";
+            display: block;
+            clear: both;
+            height: 5px;
+            background: #454545;
+        }
+
+        .tabs ul li {
+            margin: 0px;
+            padding: 0px;
+            cursor: pointer;
+            display: block;
+            float: left;
+            padding: 10px 15px;
+            background: #e9eaeb;
+            color: #707070;
+        }
+
+        .tabs ul li.active,
+        .tabs ul li.active:hover {
+            background: #454545;
+            color: #fff;
+        }
+
+        .tabs ul li:hover {
+            background: #d6d6d7;
+        }
+
+        #infoBut {
+            background: #f7c51e;
+            border-color: #f7c51e;
+            color: #454545;
+            font-family: "Montserrat", Helvetica, Arial, sans-serif;
+            padding: 15px 18px;
+            line-height: 1;
+            border-radius: 2px;
+            transition: all 200ms ease-out;
+            border: 2px solid transparent;
+        }
+
+
+
+        .useful__inner {
+            margin: 0;
+        }
+
+        .useful__link {
+            text-decoration: none !important;
+        }
+
+        .useful__group {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .useful__group_top {
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .useful__group_down {
+            justify-content: flex-start;
+            margin-bottom: 11px;
+        }
+
+        @media (max-width: 468px) {
+            .useful__group {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .useful__group {
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+
+        .useful .box__inner {
+            max-width: 270px;
+            height: 270px;
+            border: 1px solid #EEEEEE;
+            box-sizing: border-box;
+            box-shadow: 0px 1px 3px rgba(126, 135, 149, 0.15);
+            border-radius: 2px;
+            padding: 80px 25px 16px 25px;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .useful .box__inner:hover {
+            box-shadow: 0px 4px 9px rgba(126, 135, 149, 0.15);
+            transition: .2s;
+        }
+
+        @media (max-width: 468px) {
+            .useful .box__inner {
+                margin: 10px 0;
+            }
+        }
+
+        .useful .box .box__inner:hover .box__title {
+            color: #FCC71F;
+            text-decoration: none;
+            transition: .2s;
+        }
+
+        .useful .box__image img {
+            display: block;
+            margin: 0 auto 55px auto;
+        }
+
+        .useful .box__title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 120%;
+            text-align: center;
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .useful .box_last {
+            margin: 0 19px;
+        }
+
+        @media (max-width: 468px) {
+            .useful .box_last {
+                margin: 0;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script>
+        $('a').addClass('ajax');
+    </script>
+    <script type="text/javascript" src="assets/js/isotope.js"></script>
+    <script type="text/javascript" src="assets/js/imagesloaded.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.24530.js"></script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<!-- [[$head]] -->
+
+<body class="home page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7PMKHB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="boxed-container">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <a href="https://eirkc.by/">
+                                <!-- <img src="/assets/images/logo1.png" height="100px">  -->
+
+                                <!-- <div class="header__title divh4" style="color: #fff">Единый информационный <p>расчетно-кассовый
+                                        центр</p>
+                                </div> -->
+                                <img src="assets/images/header-logo.svg" alt="header-logo" class="logo__img">
+                            </a>
+                        </div>
+
+                        <div class="header-widgets  header-widgets-desktop">
+                            <div class="widget  widget-icon-box">
+                                <div class="icon-box">
+                                    <!-- <i class="fa fa-home fa-3x"></i> -->
+                                    <div class="icon-box__icon-wrapper">
+                                        <img src="assets/images/header-icons/Location.svg" alt="location">
+                                    </div>
+                                    <div class="icon-box__text">
+                                        <div class="icon-box__title">ул. Карбышева, 10</div>
+                                        <span class="icon-box__subtitle">РБ, г. Гродно</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget  widget-icon-box">
+                                <div class="icon-box">
+                                    <div class="icon-box__icon-wrapper">
+                                        <img src="assets/images/header-icons/Message.svg" alt="location">
+                                    </div>
+                                    <div class="icon-box__text">
+                                        <div class="icon-box__title">
+                                            Приемная<br>
+                                            <a href="mailto:office@eirkc.by" class="icon-box__email-link">office@eirkc.by</a>
+                                        </div>
+
+                                        <!--<span class="icon-box__subtitle"><a href="mailto:office@eirkc.b">office@eirkc.by</a></span>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="widget  widget-icon-box">
+                                <div class="icon-box">
+                                    <i class="fa  fa-clock-o  fa-3x"></i>
+                                    <div class="icon-box__text">
+                                        <div class="icon-box__title">Пн.-Пт. 8:00-17:00</div>
+                                        <span class="icon-box__subtitle">обед: 13:00-14:00</span>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div id="ytWidget"></div>
+                            <div class="widget  widget-icon-box">
+                                <div class="icon-box">
+                                    <!--	<i class="fa  fa-phone  fa-3x"></i>  -->
+                                    <div class="icon-box__text">
+                                        <div class="icon-box__title2">
+                                            <a style="font-size:12pt;" href="http://docs.eirkc.by"
+                                                class="icon-box__log-in-btn">Войти</a>
+                                        </div>
+                                        <span class="icon-box__subtitle">
+                                            <!--a href="mailto:office@eirkc.by">office@eirkc.by</a-->
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <script
+                                src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=ru&widgetTheme=light&autoMode=false"
+                                type="text/javascript"></script>
+                        </div>
+                        <!-- Toggle Button for Mobile Navigation -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#buildpress-navbar-collapse">
+                            <span class="navbar-toggle__text">МЕНЮ</span>
+                            <span class="navbar-toggle__icon-bar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="sticky-offset js-sticky-offset"></div>
+            <div class="container main-menu">
+                <div class="navigation">
+                    <div class="collapse  navbar-collapse" id="buildpress-navbar-collapse">
+                        <ul id="menu-main-menu" class="navigation--main">
+                            <li class="first active">
+                                <a href="https://eirkc.by/" title="Главная">Главная</a>
+                            </li>
+
+
+                            <li class="menu-item-has-children">
+                                <a data-id="14" title="О предприятии">О предприятии</a>
+                                <ul class="sub-menu">
+                                    <li class="first">
+                                        <a href="o-nas/vakansii.html" title="Вакансии">Вакансии</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="o-nas/doska-pocheta2021.html" title="Доска почета">Доска почета</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="o-nas/profsoyuznaya-organizacziya/" title="Профсоюзная организация">Профсоюзная организация</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="o-nas/o-predpriyatii.html" title="Общая информация">Общая информация</a>
+                                    </li>
+
+
+                                    <li class="last">
+                                        <a href="o-nas/brsm/" title="БРСМ">БРСМ</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <li class="menu-item-has-children">
+                                <a href="novosti/" title="Новости">Новости</a>
+                            </li>
+
+
+                            <li class="menu-item-has-children">
+                                <a data-id="124" title="Информация для населения">Информация для населения</a>
+                                <ul class="sub-menu">
+                                    <li class="first">
+                                        <a href="https://www.mpt.gov.by/ru/biometricheskie-dokumenty-respubliki-belarus" title="Биометрические документы">Биометрические документы</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="informacziya-dlya-naseleniya/beznalichnyie-zhilishhnyie-subsidii/" title="Безналичные жилищные субсидии">Безналичные жилищные субсидии</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="informacziya-dlya-naseleniya/elektronnyie-kvitanczii.html" title="Электронные квитанции">Электронные квитанции</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="informacziya-dlya-naseleniya/otkaz-ot-elektronnoj-kvitanczii.html" title="Отказ от электронной квитанции">Отказ от электронной квитанции</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="informacziya-dlya-naseleniya/zhspk-i-ts/" title="ЖСПК и ТС">ЖСПК и ТС</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="informacziya-dlya-naseleniya/tarifyi-na-zhku.html" title="Тарифы на ЖКУ">Тарифы на ЖКУ</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="informacziya-dlya-naseleniya/politika-operatora.html" title="Политика оператора">Политика оператора</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="informacziya-dlya-naseleniya/soczialnaya-informacziya.html" title="Социальная информация">Социальная информация</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="informacziya-dlya-naseleniya/informacziya-o-zadolzhennosti.html" title="Информация о задолженности">Информация о задолженности</a>
+                                    </li>
+
+
+                                    <li class="last">
+                                        <a href="informacziya-dlya-naseleniya/oplata-zhku-iz-za-predelov-respubliki-belarus.html" title="Оплата ЖКУ из-за пределов Республики Беларусь">Оплата ЖКУ из-за пределов Республики Беларусь</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+
+
+                            <li class="menu-item-has-children">
+                                <a data-id="8" title="Услуги">Услуги</a>
+                                <ul class="sub-menu">
+                                    <li class="first">
+                                        <a href="uslugi/uslugi,-okazyivaemyie-rscz-№1,3,4,5.html" title="Услуги, оказываемые РСЦ №1,3,4,5">Услуги, оказываемые РСЦ №1,3,4,5</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="uslugi/seminaryi-provodimyie-eirkcz.html" title="Семинары проводимые ЕИРКЦ">Семинары проводимые ЕИРКЦ</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="uslugi/obrazczyi-dogovorov.html" title="Образцы договоров">Образцы договоров</a>
+                                    </li>
+
+
+                                    <li class="last">
+                                        <a href="uslugi/vyidacha-spravok-po-onlajn-zayavkam.html" title="Выдача справок по онлайн заявкам">Выдача справок по онлайн заявкам</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+
+
+                            <li class="menu-item-has-children">
+                                <a data-id="270" title="Обращения">Обращения</a>
+                                <ul class="sub-menu">
+                                    <li class="first">
+                                        <a href="obrashheniya/obshhaya-informacziya.html" title="Общая информация">Общая информация</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="obrashheniya/grafik-priema.html" title="График приема">График приема</a>
+                                    </li>
+
+
+                                    <li class="last">
+                                        <a href="obrashheniya/elektronnyie-obrashheniya.html" title="Электронные обращения">Электронные обращения</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+
+
+                            <li class="menu-item-has-children">
+                                <a data-id="262" title="Прочая информация">Прочая информация</a>
+                                <ul class="sub-menu">
+                                    <li class="first">
+                                        <a href="prochaya-informacz/anketirovanie-naseleniya.html" title="Анкетирование населения">Анкетирование населения</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="prochaya-informacz/borba-s-korrupcziej.html" title="Борьба с коррупцией">Борьба с коррупцией</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="prochaya-informacz/edinyij-den-informirovaniya.html" title="Единый день информирования">Единый день информирования</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="prochaya-informacz/profilaktika-alkogolizma-i-narkomanii/" title="Профилактика алкоголизма и наркомании">Профилактика алкоголизма и наркомании</a>
+                                    </li>
+
+
+                                    <li class="last">
+                                        <a href="prochaya-informacz/normativno-pravovyie-aktyi.html" title="Нормативно-правовые акты">Нормативно-правовые акты</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+
+
+                            <li class="last menu-item-has-children">
+                                <a data-id="10" title="Контакты">Контакты</a>
+                                <ul class="sub-menu">
+                                    <li class="first">
+                                        <a href="kontaktyi/kontaktyi-rscz.html" title="Контакты РСЦ">Контакты РСЦ</a>
+                                    </li>
+
+
+                                    <li class="last">
+                                        <a href="kontaktyi/kontaktyi-eirkcz.html" title="Контакты ЕИРКЦ">Контакты ЕИРКЦ</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header-widgets  hidden-md  hidden-lg">
+                    <div class="widget  widget-icon-box">
+                        <div class="icon-box">
+                            <!-- <i class="fa fa-home fa-3x"></i> -->
+                            <div class="icon-box__icon-wrapper">
+                                <img src="assets/images/header-icons/Location.svg" alt="location">
+                            </div>
+                            <div class="icon-box__text">
+                                <div class="icon-box__title">ул. Карбышева, 10</div>
+                                <span class="icon-box__subtitle">РБ, г. Гродно</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget  widget-icon-box">
+                        <div class="icon-box">
+                            <div class="icon-box__icon-wrapper">
+                                <img src="assets/images/header-icons/Message.svg" alt="location">
+                            </div>
+                            <div class="icon-box__text">
+                                <div class="icon-box__title">
+                                    Приемная<br>
+                                </div>
+
+                                <a href="mailto:office@eirkc.by"
+                                    class="icon-box__email-link">office@eirkc.by</a>
+                                <!--<span class="icon-box__subtitle"><a href="mailto:office@eirkc.b">office@eirkc.by</a></span>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="widget  widget-icon-box">
+                        <div class="icon-box">
+                            <i class="fa  fa-clock-o  fa-3x"></i>
+                            <div class="icon-box__text">
+                                <div class="icon-box__title">Пн.-Пт. 8:00-17:00</div>
+                                <span class="icon-box__subtitle">обед: 13:00-14:00</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div id="ytWidget"></div>
+                    <div class="widget  widget-icon-box">
+                        <div class="icon-box">
+                            <!--	<i class="fa  fa-phone  fa-3x"></i>  -->
+                            <div class="icon-box__text">
+                                <div class="icon-box__title2">
+                                    <a style="font-size:12pt;" href="http://docs.eirkc.by"
+                                        class="icon-box__log-in-btn">Войти</a>
+                                </div>
+                                <span class="icon-box__subtitle">
+                                    <!--a href="mailto:office@eirkc.by">office@eirkc.by</a-->
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="widget  widget-icon-box">
+                        <div class="icon-box">
+                            <i class="fa  fa-phone  fa-3x"></i>
+                            <div class="icon-box__text">
+                                <div class="icon-box__title"><a style="font-size:12pt;"
+                                        href="http://docs.eirkc.by">Личный<br>кабинет</a>
+
+                                </div>
+                                <span class="icon-box__subtitle"> -->
+                                    <!--a href="mailto:office@eirkc.by">office@eirkc.by</a-->
+                                <!-- </span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="widget  widget-icon-box">
+                        <div class="icon-box">
+                            <i class="fa  fa-envelope  fa-3x"></i>
+                            <div class="icon-box__text">
+                                <div class="icon-box__title">Приемная<br><a
+                                        href="mailto:office@eirkc.by">office@eirkc.by</a></div>
+                                <span class="icon-box__subtitle">
+                                    <div class="icon-box__title"></div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget  widget-icon-box">
+                        <div class="icon-box">
+                            <i class="fa  fa-home  fa-3x"></i>
+                            <div class="icon-box__text">
+                                <div class="icon-box__title">ул. Карбышева, 10</div>
+                                <span class="icon-box__subtitle">РБ, г. Гродно</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget  widget-icon-box">
+                        <div class="icon-box">
+                            <i class="fa  fa-clock-o  fa-3x"></i>
+                            <div class="icon-box__text">
+                                <div class="icon-box__title">Пн.-Пт. 8:00-17:00</div>
+                                <span class="icon-box__subtitle">обед: 13:00-14:00</span>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <a id="CecutientBtn" class="spec" title="Версия для слабовидящих" alt="Версия для слабовидящих">
+
+
+
+                <img src="assets/images/view.png" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" class="spec" width=50px height=auto
+                    style="cursor: pointer; position:fixed; z-index:20202;top: 0" /></a>
+        </header>
+
+        <div class="intro">
+            <div class="widget-letter">
+                <div class="widget-letter__inner">
+                    <div class="widget-letter__icon"><img src="assets/images/intro-icons/Letter.svg" alt="letter" class="widget-letter__icon-img"></div>
+                    <span class="widget-letter__text">Получать извещения ЖКУ по Email</span>
+                </div>
+            </div>
+
+            <div class="intro__wrapper">
+                <div class="container">
+                    <div class="intro__content">
+                        <div class="intro__cards">
+                            <div class="intro__card">
+                                <div class="intro-card__info">
+                                    <div class="intro-card__icon intro-card__icon--blue">
+                                        <img src="assets/images/intro-icons/Chart.svg" alt="Chart"
+                                            class="intro-card__icon-img">
+                                    </div>
+                                    <h2 class="intro-card__title">Тарифы на жилищно-коммунальные услуги</h2>
+                                    <p class="intro-card__text">Тарифы на жилищно-коммунальные услуги для начисления на
+                                        январь 2022 года</p>
+                                </div>
+                            </div>
+
+                            <div class="intro__card">
+                                <div class="intro-card__info">
+                                    <div class="intro-card__icon intro-card__icon--red">
+                                        <img src="assets/images/intro-icons/Cashless.svg" alt="Cashless"
+                                            class="intro-card__icon-img">
+                                    </div>
+                                    <h2 class="intro-card__title">Безналичные жилищные субсидии</h2>
+                                    <p class="intro-card__text">Тарифы на жилищно-коммунальные услуги для начисления на
+                                        январь 2022 года</p>
+                                </div>
+                            </div>
+
+                            <div class="intro__card">
+                                <div class="intro-card__info">
+                                    <div class="intro-card__icon intro-card__icon--green">
+                                        <img src="assets/images/intro-icons/Debt.svg" alt="Debt"
+                                            class="intro-card__icon-img">
+                                    </div>
+                                    <h2 class="intro-card__title">Информация о задолженности</h2>
+                                    <p class="intro-card__text">Тарифы на жилищно-коммунальные услуги для начисления на
+                                        январь 2022 года</p>
+                                </div>
+                            </div>
+
+                            <div class="intro__card">
+                                <div class="intro-card__info">
+                                    <div class="intro-card__icon intro-card__icon--yellow">
+                                        <img src="assets/images/intro-icons/Paymant-from-outside.svg" alt="Paymant-from-outside"
+                                            class="intro-card__icon-img">
+                                    </div>
+                                    <h2 class="intro-card__title">Оплата ЖКУ из-за пределов Республики Беларусь</h2>
+                                    <p class="intro-card__text">Тарифы на жилищно-коммунальные услуги для начисления на
+                                        январь 2022 года</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="jumbotron  jumbotron--with-captions">
+            <div class="carousel  slide  js-jumbotron-slider" id="headerCarousel" data-interval="5000">
+                <div class="carousel-inner"> -->
+
+        <!--<div class="item">
+	                    <img src="assets/images/demo/slider/slider2.jpg"	alt="слайдер 1" />
+                    </div>-->
+
+        <!-- </div>
+            </div>
+        </div> -->
+
+        <!-- <br />
+        <div class="spacer-big"></div> -->
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel widget widget_text panel-first-child" id="panel-7-3-0-0">
+                        <div class="textwidget"></div>
+                    </div>
+                    <div class="panel panel-grid widget widget_black-studio-tinymce panel-last-child"
+                        id="panel-7-3-0-1">
+                        <h1 class="widget-title">Часто запрашиваемая информация</h1>
+                        <div class="col-md-6">
+                            <div class="textwidget">
+                                <h5>
+                                    <span style="color: #fcc71f"><br /><span class="icon-container"><span
+                                                class="fa fa-check"></span></span></span>
+                                    <span style="color: #333333">Тарифы</span>
+                                </h5>
+                                <p>
+                                <p>Тарифы на жилищно-коммунальные услуги для начисления на январь 2022 года<br /><a
+                                        href="informacziya-dlya-naseleniya/tarifyi-na-zhku.html">Читать далее...</a></p>
+                                </p>
+                                <h5>
+                                    <span style="color: #fcc71f"><br /><span class="icon-container"><span
+                                                class="fa fa-check"></span></span></span>
+                                    <span style="color: #333333">Безналичные жилищные субсидии</span>
+                                </h5>
+                                <p>
+                                <p>Подробная информация о безналичных жилищных субсидиях<br /><a
+                                        href="informacziya-dlya-naseleniya/beznalichnyie-zhilishhnyie-subsidii/">Читать
+                                        далее...</a></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="textwidget">
+                                <h5>
+                                    <span style="color: #fcc71f"><br /><span class="icon-container"><span
+                                                class="fa fa-check"></span></span></span>
+                                    <span style="color: #333333">Услуги, оказываемые расчетно-справочными
+                                        центрами</span>
+                                </h5>
+                                <p>
+                                <p>Подробная информация об услугах, оказываемых расчетно-справочными центрами<br /><a
+                                        href="uslugi/uslugi,-okazyivaemyie-rscz-%E2%84%961,3,4,5.html">Читать
+                                        далее...</a></p>
+                                </p>
+                                <h5>
+                                    <span style="color: #fcc71f"><br /><span class="icon-container"><span
+                                                class="fa fa-check"></span></span></span>
+                                    <span style="color: #333333">Оплата ЖКУ из-за пределов Республики Беларусь</span>
+                                </h5>
+                                <p>
+                                <p>Инструкция по оплате жилищно-коммунальных услуг из-за пределов Республики
+                                    Беларусь<br /><a
+                                        href="informacziya-dlya-naseleniya/oplata-zhku-iz-za-predelov-respubliki-belarus.html">Читать
+                                        далее...</a></p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+
+
+        <!-- <div class="spacer-big"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel widget widget_text panel-first-child" id="panel-7-3-1-0">
+                        <div class="textwidget"></div>
+                    </div>
+                    <div class="panel panel-grid widget widget_black-studio-tinymce panel-last-child"
+                        id="panel-7-3-1-1">
+                        <h3 class="widget-title">Электронные квитанции</h3>
+                    </div>
+
+                    <div class="col-md-6">
+                        <blockquote class="testimonial__quote">
+                            <p>Жители города Гродно могут получать извещения о размере платы за жилищно-коммунальные
+                                услуги в электронном виде.</p>
+
+                            <p>Рассылка извещений будет производиться на электронный адрес плательщика автоматически до
+                                15 числа каждого месяца.<br>
+                                <a href="informacziya-dlya-naseleniya/elektronnyie-kvitanczii.html">Читать далее...</a>
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+
+                        <p><img class="alignleft wp-image-116 size-medium" src="assets/images/350 electronka.png" alt=""
+                                width="180" height="180" /></p>
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    
+        <section class="electronic-receipts">
+            <div class="widget-letter">
+                <div class="widget-letter__inner">
+                    <div class="widget-letter__icon"><img src="assets/images/intro-icons/Letter.svg" alt="letter" class="widget-letter__icon-img"></div>
+                    <span class="widget-letter__text">Получать извещения ЖКУ по Email</span>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="electronic-receipts__title-block">
+                    <h2 class="electronic-receipts__title">Электронные квитанции</h2>
+                </div>
+
+                <div class="electronic-receipts__gears">
+                    <div class="electronic-receipts__gears-inner">
+                        <img src="assets/images/electronic-receipts/gear.svg" alt="gear"
+                            class="electronic-receipts__gear-img">
+                        <img src="assets/images/electronic-receipts/gear.svg" alt="gear"
+                            class="electronic-receipts__gear-img">
+                        <img src="assets/images/electronic-receipts/gear.svg" alt="gear"
+                            class="electronic-receipts__gear-img">
+                    </div>
+                </div>
+
+                <div class="electronic-receipts__content">
+                    <div class="electronic-receipts__left">
+                        <div class="electronic-receipts__left-img">
+                            <img src="assets/images/electronic-receipts/letter.svg" alt="letter">
+                        </div>
+                        <h3 class="electronic-receipts__left-title">Оставьте заявку для получения извещения о размере платы
+                            за жилищно-коммунальные услуги в электронном виде</h3>
+                        <h4 class="electronic-receipts__left-text">
+                            <span>Воспользуйтесь формой обратной связи расположенной справа, корректно заполнив все строчки,
+                                и дать согласие на обработку персональных данных.</span>
+                            <span>Если хотите узнать больше информации смотрите раздел</span>
+                        </h4>
+                        <a href="#" class="electronic-receipts__left-link">подробнее</a>
+                    </div>
+                    <div class="electronic-receipts__right">
+                        <form action="#" class="electronic-receipts__right-form">
+                            <input type="text" name="fio" class="electronic-receipts__form-input"
+                                placeholder="*ФИО заявителя (собственника, нанимателя)" autocomplete="off">
+                            <input type="text" name="fio" class="electronic-receipts__form-input"
+                                placeholder="*Адрес жилого помещения" autocomplete="off">
+                            <input type="text" name="fio" class="electronic-receipts__form-input"
+                                placeholder="*Контактный номер телефона" autocomplete="off">
+                            <input type="text" name="fio" class="electronic-receipts__form-input"
+                                placeholder="*Адрес электронной почты" autocomplete="off">
+                            <input type="text" name="fio" class="electronic-receipts__form-input"
+                                placeholder="*Номер лицевого счета" autocomplete="off">
+                            <input type="text" name="fio" class="electronic-receipts__form-input"
+                                placeholder="*Дата выдачи паспорта" autocomplete="off">
+
+                            <div class="electronic-receipts__form-checkboxs">
+                                <label name="checkbox-first" class="electronic-receipts__form-checkbox">
+                                    <!-- <input type="hidden" name="checked" value="" /> -->
+                                    <input checked type="checkbox" name="checked" value="false"
+                                        class="electronic-receipts__checkbox-real">
+                                    <div class="electronic-receipts__checkbox-fake"></div>
+                                    <div class="electronic-receipts__checkbox-text">Подтверждаю, что в случае моего отказа
+                                        от услуги по предоставлению квитанции в электронном виде либо смене плательщика,
+                                        обязуюсь сообщить об этом в обслуживающий РС.</div>
+                                </label>
+
+                                <label name="checkbox-second" class="electronic-receipts__form-checkbox">
+                                    <!-- <input type="hidden" name="checked" value="" /> -->
+                                    <input checked type="checkbox" name="checked" value="false"
+                                        class="electronic-receipts__checkbox-real">
+                                    <div class="electronic-receipts__checkbox-fake"></div>
+                                    <div class="electronic-receipts__checkbox-text">Я выражаю согласие на <a
+                                            href="#">обработку персональных данных</a></div>
+                                </label>
+                            </div>
+
+                            <input type="submit" value="Отправить" class="electronic-receipts__form-button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="slider">
+            <div align="center">
+                <div class="container logos">
+                    <div id="owl-example" class="owl-carousel">
+                        <div class="logo"><a
+                                href="/r.php?r=https://www.belta.by/president/view/lukashenko-podpisal-ukaz-ob-objjavlenii-goda-istoricheskoj-pamjati-477639-2021/"
+                                target="blank" rel="nofollow"><img src="assets/images/banners/Без названия.png"></img></a>
+                        </div>
+                        <div class="logo"><a href="/r.php?r=http://grodno.gov.by/main.aspx?guid=18721" target="blank"
+                                rel="nofollow"><img src="assets/images/banners/konst.jpg"></img></a>
+                        </div>
+                        <div class="logo"><a
+                                href="/r.php?r=https://pravo.by/pravovaya-informatsiya/vsenarodnoe-obsuzhdenie-proekta-konstitutsii-respubliki-belarus/"
+                                target="blank" rel="nofollow"><img
+                                    src="assets/images/banners/Конституция мелкая.jpg"></img></a></div>
+                        <div class="logo"><a
+                                href="/r.php?r=https://eirkc.by/informacziya-dlya-naseleniya/elektronnyie-kvitanczii.html"
+                                target="blank" rel="nofollow"><img
+                                    src="assets/images/banners/Электронное обращение_узкое_rgb_для еиркц.jpg"></img></a>
+                        </div>
+                        <div class="logo"><a href="/r.php?r=http://grodno.gov.by/main.aspx?guid=17911" target="blank"
+                                rel="nofollow"><img src="assets/images/banners/sm_full (1) размер.jpg"></img></a></div>
+                        <div class="logo"><a href="/r.php?r=http://grodno.gov.by/main.aspx?guid=18041" target="blank"
+                                rel="nofollow"><img src="assets/images/banners/sm_full размер.jpg"></img></a></div>
+                        <div class="logo"><a href="/r.php?r=http://glenad-grodno.gov.by/state/AH:-1.180198768425/"
+                                target="blank" rel="nofollow"><img
+                                    src="assets/images/banners/003346_7aefbd60071e3_.jpg"></img></a></div>
+                        <div class="logo"><a href="/r.php?r=http://grodno.gov.by/" target="blank" rel="nofollow"><img
+                                    src="assets/images/banners/ggik.gif"></img></a></div>
+                        <div class="logo"><a href="/r.php?r=http://president.gov.by/" target="blank" rel="nofollow"><img
+                                    src="assets/images/logos/president.jpg"></img></a></div>
+                        <div class="logo"><a href="/r.php?r=http://www.oblsport.grodno.by/ru/projects/5523/#!/tab-10"
+                                target="blank" rel="nofollow"><img src="assets/images/logos/velo.jpg"></img></a>
+                        </div>
+                        <div class="logo"><a href="/r.php?r=http://www.region.grodno.by/ru/turist_privlekatelnost-ru/"
+                                target="blank" rel="nofollow"><img src="assets/images/logos/tourism.jpg"></img></a>
+                        </div>
+                        <div class="logo"><a href="/r.php?r=http://www.oblsport.grodno.by/ru/projects/5522/" target="blank"
+                                rel="nofollow"><img src="assets/images/logos/Avgustov.jpg"></img></a>
+                        </div>
+                        <div class="logo"><a href="/r.php?r=http://region.grodno.by/" target="blank" rel="nofollow"><img
+                                    src="assets/images/banners/oblispolkom.jpg"></img></a></div>
+                        <div class="logo"><a href="/r.php?r=http://pravo.by/" target="blank" rel="nofollow"><img
+                                    src="assets/images/banners/pravo.png"></img></a></div>
+                        <div class="logo"><a href="/r.php?r=http://www.government.by/ru/" target="blank" rel="nofollow"><img
+                                    src="assets/images/banners/sovmin.jpg"></img></a></div>
+                    </div>
+
+                    <!-- <div class="owl-controls clickable">
+                        <div class="owl-buttons">
+                            <div class="owl-prev"></div>
+                            <div class="owl-next"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <p><audio width="300" height="32" class="audio-for-speech" src="https://eirkc.by/"></audio></p>
+    <div class="translate-tooltip-mtz hidden">
+        <div class="header">
+            <div class="header-controls"> </div>
+            <div class="translate-icons"><img class="from" src="https://eirkc.by/" alt="" /> <img class="arrow"
+                    src="chrome-extension://gafjimepaiecpbmbmgaefokbekhoecaj/images/right-arrow.png" alt="" /> <img
+                    class="to" src="https://eirkc.by/" alt="" /></div>
+        </div>
+        <div class="translated-text"> </div>
+    </div>
+    <p><audio width="300" height="32" class="audio-for-speech" src="https://eirkc.by/"></audio></p>
+    <div class="translate-tooltip-mtz hidden">
+        <div class="header">
+            <div class="header-controls"> </div>
+            <div class="translate-icons"><img class="from" src="https://eirkc.by/" alt="" /> <img class="arrow"
+                    src="chrome-extension://gafjimepaiecpbmbmgaefokbekhoecaj/images/right-arrow.png" alt="" /> <img
+                    class="to" src="https://eirkc.by/" alt="" /></div>
+        </div>
+        <div class="translated-text"> </div>
+    </div>
+    <p> </p>
+
+    <footer>
+        <div class="footer__top">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="https://eirkc.by/">
+                            <!-- <img src="/assets/images/logo1.png" height="100px">  -->
+
+                            <!-- <div class="header__title divh4" style="color: #fff">Единый информационный <p>расчетно-кассовый
+                                    центр</p>
+                            </div> -->
+                            <img src="assets/images/header-logo.svg" alt="header-logo" class="logo__img">
+                        </a>
+                    </div>
+
+                    <div class="header-widgets  header-widgets-desktop footer__widgets">
+                        <div class="widget  widget-icon-box">
+                            <div class="icon-box">
+                                <!-- <i class="fa fa-home fa-3x"></i> -->
+                                <div class="icon-box__icon-wrapper">
+                                    <img src="assets/images/header-icons/Location.svg" alt="location">
+                                </div>
+                                <div class="icon-box__text">
+                                    <div class="icon-box__title">ул. Карбышева, 10</div>
+                                    <span class="icon-box__subtitle">РБ, г. Гродно</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget  widget-icon-box">
+                            <div class="icon-box">
+                                <div class="icon-box__icon-wrapper">
+                                    <img src="assets/images/header-icons/Message.svg" alt="location">
+                                </div>
+                                <div class="icon-box__text">
+                                    <div class="icon-box__title">
+                                        Приемная<br>
+                                    </div>
+
+                                    <a href="mailto:office@eirkc.by" class="icon-box__email-link">office@eirkc.by</a>
+                                    <!--<span class="icon-box__subtitle"><a href="mailto:office@eirkc.b">office@eirkc.by</a></span>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget  widget-icon-box">
+                            <div class="icon-box">
+                                <div class="icon-box__icon-wrapper">
+                                    <img src="assets/images/header-icons/Time.svg" alt="location">
+                                </div>
+                                <div class="icon-box__text">
+                                    <div class="icon-box__title">
+                                        Пн-Пт 8:00-17:00<br>
+                                    </div>
+
+                                    <a href="mailto:office@eirkc.by" class="icon-box__email-link">обед 13:00-14:00</a>
+                                    <!--<span class="icon-box__subtitle"><a href="mailto:office@eirkc.b">office@eirkc.by</a></span>-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="widget  widget-icon-box">
+                            <div class="icon-box">
+                                <i class="fa  fa-clock-o  fa-3x"></i>
+                                <div class="icon-box__text">
+                                    <div class="icon-box__title">Пн.-Пт. 8:00-17:00</div>
+                                    <span class="icon-box__subtitle">обед: 13:00-14:00</span>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <button class="btn-to-top"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__center">
+            <div class="container">
+                <div class="footer__lists">
+                    <div class="footer__lists-col">
+                        <ul class="footer__list">
+                            <h3 class="footer__list-title">О предприятии</h3>
+
+                            <div class="footer__list-col">
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Вакансии</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Доска почета</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Профсоюзная программа</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Общая информация</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">БРСМ</a>
+                                </li>
+                            </div>
+                        </ul>
+
+                        <ul class="footer__list">
+                            <h3 class="footer__list-title">Обращения</h3>
+
+                            <div class="footer__list-col">
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Общая информация</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">График приема</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Электронные обращения</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="footer__lists-col">
+                        <ul class="footer__list">
+                            <h3 class="footer__list-title">Информация для населения</h3>
+
+                            <div class="footer__list-items">
+                                <div class="footer__list-col">
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Биометрические документы</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Безналичные жилищные субсидии</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Электронные квитанции</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Отказ от электронной квитанции</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">ЖСПК и ТС</a>
+                                    </li>
+                                </div>
+
+                                <div class="footer__list-col">
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Тарифы на ЖКУ</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Политика оператора</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Социальная ифнормация</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Информация о задолженности</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Оплата ЖКУ из-за пределов РБ</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+
+                        <ul class="footer__list">
+                            <h3 class="footer__list-title">Прочая информация</h3>
+
+                            <div class="footer__list-items">
+                                <div class="footer__list-col">
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Анкетирование населения</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Борьба с коррупцией</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Единый день информирования</a>
+                                    </li>
+                                </div>
+
+                                <div class="footer__list-col">
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Профилактика алкоголизма и наркомании</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Нормативно-правовые акты</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <!-- <div class="footer__lists-col">
+                        <ul class="footer__list">
+                            <div class="footer__list-items">
+                                <div class="footer__list-col">
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Тарифы на ЖКУ</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Политика оператора</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Социальная ифнормация</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Информация о задолженности</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Оплата ЖКУ из-за пределов РБ</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+
+                        <ul class="footer__list">
+                            <div class="footer__list-items">
+                                <div class="footer__list-col">
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Профилактика алкоголизма и
+                                            наркомании</a>
+                                    </li>
+                                    <li class="footer__list-item">
+                                        <a href="#" class="footer__list-link">Нормативно-правовые акты</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div> -->
+
+                    <div class="footer__lists-col">
+                        <ul class="footer__list">
+                            <h3 class="footer__list-title">Услуги</h3>
+
+                            <div class="footer__list-col">
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Услуги, оказываемые РСЦ №1, 3, 4, 5</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Семинары проводимые ЕИРКЦ</a>
+                                </li>
+                                <li class="footer__list-item">
+									<a href="#" class="footer__list-link">Образцы договоров</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Общая информация</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Выдача справок по онлайн заявкам</a>
+                                </li>
+                            </div>
+                        </ul>
+
+                        <ul class="footer__list">
+                            <h3 class="footer__list-title">Контакты</h3>
+
+                            <div class="footer__list-col">
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Контакты РСЦ</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="#" class="footer__list-link">Контакты ЕИРКЦ</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer-bottom__inner">
+                    <h5 class="footer-bottom__copyright">© 2022 eirkc.by. КУП «Единый информационный расчетно-кассовый
+                        центр»</h5>
+
+                    <div class="footer-bottom__developed">
+                        <h5>Разработано: <a href="https://nbd.by/" target="_blank"><img
+                                    src="assets/images/footer-logo.svg" alt="nbd logo"></a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom__left">
+
+                    <p class="font-11 text-white m-0 footer_information_sp">Разработано в<a target="_blank"
+                            href="https://nbd.by"></a></p>
+                </div>
+
+                <div class="footer-bottom__right">
+                    &copy; 2015-2022 <strong>eirkc.by</strong>. КУП «Единый информационный расчетно-кассовый центр»
+                </div>
+                <div align="center">
+                    <div class="container logos">
+                        <div id="owl-example" class="owl-carousel">
+                            <div class="logo"><a
+                                    href="/r.php?r=https://www.belta.by/president/view/lukashenko-podpisal-ukaz-ob-objjavlenii-goda-istoricheskoj-pamjati-477639-2021/"
+                                    target="blank" rel="nofollow"><img
+                                        src="assets/images/banners/Без названия.png"></img></a></div>
+                            <div class="logo"><a href="/r.php?r=http://grodno.gov.by/main.aspx?guid=18721"
+                                    target="blank" rel="nofollow"><img src="assets/images/banners/konst.jpg"></img></a>
+                            </div>
+                            <div class="logo"><a
+                                    href="/r.php?r=https://pravo.by/pravovaya-informatsiya/vsenarodnoe-obsuzhdenie-proekta-konstitutsii-respubliki-belarus/"
+                                    target="blank" rel="nofollow"><img
+                                        src="assets/images/banners/Конституция мелкая.jpg"></img></a></div>
+                            <div class="logo"><a
+                                    href="/r.php?r=https://eirkc.by/informacziya-dlya-naseleniya/elektronnyie-kvitanczii.html"
+                                    target="blank" rel="nofollow"><img
+                                        src="assets/images/banners/Электронное обращение_узкое_rgb_для еиркц.jpg"></img></a>
+                            </div>
+                            <div class="logo"><a href="/r.php?r=http://grodno.gov.by/main.aspx?guid=17911"
+                                    target="blank" rel="nofollow"><img
+                                        src="assets/images/banners/sm_full (1) размер.jpg"></img></a></div>
+                            <div class="logo"><a href="/r.php?r=http://grodno.gov.by/main.aspx?guid=18041"
+                                    target="blank" rel="nofollow"><img
+                                        src="assets/images/banners/sm_full размер.jpg"></img></a></div>
+                            <div class="logo"><a href="/r.php?r=http://glenad-grodno.gov.by/state/AH:-1.180198768425/"
+                                    target="blank" rel="nofollow"><img
+                                        src="assets/images/banners/003346_7aefbd60071e3_.jpg"></img></a></div>
+                            <div class="logo"><a href="/r.php?r=http://grodno.gov.by/" target="blank"
+                                    rel="nofollow"><img src="assets/images/banners/ggik.gif"></img></a></div>
+                            <div class="logo"><a href="/r.php?r=http://president.gov.by/" target="blank"
+                                    rel="nofollow"><img src="assets/images/logos/president.jpg"></img></a></div>
+                            <div class="logo"><a
+                                    href="/r.php?r=http://www.oblsport.grodno.by/ru/projects/5523/#!/tab-10"
+                                    target="blank" rel="nofollow"><img src="assets/images/logos/velo.jpg"></img></a>
+                            </div>
+                            <div class="logo"><a
+                                    href="/r.php?r=http://www.region.grodno.by/ru/turist_privlekatelnost-ru/"
+                                    target="blank" rel="nofollow"><img src="assets/images/logos/tourism.jpg"></img></a>
+                            </div>
+                            <div class="logo"><a href="/r.php?r=http://www.oblsport.grodno.by/ru/projects/5522/"
+                                    target="blank" rel="nofollow"><img src="assets/images/logos/Avgustov.jpg"></img></a>
+                            </div>
+                            <div class="logo"><a href="/r.php?r=http://region.grodno.by/" target="blank"
+                                    rel="nofollow"><img src="assets/images/banners/oblispolkom.jpg"></img></a></div>
+                            <div class="logo"><a href="/r.php?r=http://pravo.by/" target="blank" rel="nofollow"><img
+                                        src="assets/images/banners/pravo.png"></img></a></div>
+                            <div class="logo"><a href="/r.php?r=http://www.government.by/ru/" target="blank"
+                                    rel="nofollow"><img src="assets/images/banners/sovmin.jpg"></img></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </footer>
+    </div><!-- end of .boxed-container -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#owl-example").owlCarousel({
+                items : 6,
+                autoPlay : true,
+                pagination : false,
+                itemsMobile : [479,4],
+                itemsTablet: [768,4],
+                navigation: true,
+                loop: true
+            });
+
+        });
+
+        document.querySelector('.btn-to-top').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            })
+        });
+
+        const header = document.querySelector('.header');
+        const intro = document.querySelector('.intro')
+
+        if(header.nextElementSibling === intro) {
+            header.style.position = 'absolute';
+        }
+    </script>
+    <script type="text/javascript" src="assets/js/almond.js"></script>
+    <script type="text/javascript" src="assets/js/underscore.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="assets/js/header_carousel.js"></script>
+    <script type="text/javascript" src="assets/js/sticky_navbar.js"></script>
+    <script type="text/javascript" src="assets/js/simplemap.js"></script>
+    <script type="text/javascript" src="assets/js/main.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/require.js"></script>
+    <script type="text/javascript" src="assets/js/slideblock.js"></script>
+
+    <script type="text/javascript" src="assets/specver/js/specver.js" charset="utf-8"></script>
+    <script type="text/javascript">
+//$(document).ready(function() {
+   //$('#messageForm').submit(function (event) {
+  // отменим стандартную отправку формы на сервер
+  //event.preventDefault();
+  // если форма прошла валидацию, то вызовем invisible reCaptcha
+  //if (validateForm(this)) {
+    //grecaptcha.execute();
+  //}
+//});
+//});
+    </script>
+
+    <script type="text/javascript">
+        function onSubmitReCaptcha(token) {
+            var idForm = 'messageForm';
+            sendForm(document.getElementById(idForm), '/feedback/process.php');
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
