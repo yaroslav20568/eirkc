@@ -377,6 +377,10 @@ footer {
     transition: .3s linear min-height;
 }
 
+.intro__card a:hover {
+    text-decoration: none;
+}
+
 .intro-card__info {}
 
 .intro-card__icon {
@@ -645,12 +649,14 @@ footer {
 }
 
 .electronic-receipts__title-block {
-    max-width: 488px;
-    margin: 0 auto;
+    /* max-width: 488px; */
+    /* margin: 0 auto; */
 	text-align: center;
 }
 
 .electronic-receipts__title {
+    max-width: 900px;
+    margin: 0 auto;
     font-family: 'Lato';
     font-weight: 700;
     font-size: 42px;
@@ -1654,6 +1660,10 @@ footer {
         width: auto;
     }
 
+    .footer__widgets .widget-icon-box:nth-child(2) {
+        display: none;
+    }
+
     .footer__list-items {
         grid-template-columns: 1fr;
     }
@@ -1707,10 +1717,6 @@ footer {
 	.electronic-receipts__left {
 		margin-bottom: 30px;
 	}
-
-    .footer__widgets .widget-icon-box:nth-child(2) {
-        display: none;
-    }
 
     .footer-bottom__inner {
         flex-direction: column;

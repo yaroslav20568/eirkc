@@ -1520,7 +1520,7 @@ a:hover { color: #1b92bf; }
 
 img { border-radius: 2px; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Montserrat", Helvetica, Arial, sans-serif; font-weight: bold; color: #333333; letter-spacing: -0.5px; }
+h1, h2, h3, h4, h5, h6 { font-family: "Lato", Helvetica, Arial, sans-serif; font-weight: bold; color: #333333; letter-spacing: -0.5px; }
 
 .alternative-heading, .alternative-heading--404, .sidebar__headings, .footer .footer__headings, .jumbotron__category, .hentry__title, .panel-grid .widget-title, body.woocommerce-page div.product .woocommerce-tabs h2, body.woocommerce-page .short-description, body.woocommerce-page .cart-collaterals .cart_totals h2, body.woocommerce-page .cart-collaterals .shipping_calculator h2 { position: relative; margin-top: 30px; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
 .alternative-heading::after, .alternative-heading--404::after, .sidebar__headings::after, .footer .footer__headings::after, .jumbotron__category::after, .hentry__title::after, .panel-grid .widget-title::after, body.woocommerce-page div.product .woocommerce-tabs h2::after, body.woocommerce-page .short-description::after, body.woocommerce-page .cart-collaterals .cart_totals h2::after, body.woocommerce-page .cart-collaterals .shipping_calculator h2::after { position: absolute; content: ""; background-color: #f7c51e; height: 3px; width: 30px; bottom: -1px; left: 0; }
@@ -1530,7 +1530,7 @@ h1, h2, h3, h4, h5, h6 { font-family: "Montserrat", Helvetica, Arial, sans-serif
 
 blockquote { border-color: #f7c51e; }
 
-.buildpress-table { width: 100%; max-width: 100%; font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+.buildpress-table { width: 100%; max-width: 100%; font-family: "Lato", Helvetica, Arial, sans-serif; }
 .buildpress-table thead th { background-color: #f7c51e; padding: 15px 20px; border-radius: 2px; color: #333333; border-right: 2px solid transparent; border-top: 1px solid transparent; border-bottom: 1px solid transparent; background-clip: padding-box; }
 .buildpress-table thead th:first-of-type { background-color: transparent; }
 .buildpress-table thead th:last-of-type { border-right: none; }
@@ -1696,7 +1696,7 @@ blockquote { border-color: #f7c51e; }
 
 
 @media (min-width: 992px) { .navigation { position: relative; z-index: 210; } }
-.navigation--main {  margin: 0; padding: 10px; font-family: "Montserrat", Helvetica, Arial, sans-serif; font-weight: bold; }
+.navigation--main {  margin: 0; padding: 10px; font-family: "Lato", Helvetica, Arial, sans-serif; font-weight: bold; }
 @media (min-width: 992px) { .navigation--main { padding: 0; } }
 .navigation--main > li { list-style: none; }
 @media (min-width: 992px) { .navigation--main > li { display: inline-block; position: relative;} }
@@ -1734,7 +1734,7 @@ blockquote { border-color: #f7c51e; }
 .navbar-toggle .icon-bar + .icon-bar { margin-top: 3px; }
 .navbar-toggle:focus { outline: none; }
 
-.navbar-toggle__text { font-family: "Montserrat", Helvetica, Arial, sans-serif; font-weight: bold; color: #454545; display: inline-block; padding: 0 10px 0 0; }
+.navbar-toggle__text { font-family: "Lato", Helvetica, Arial, sans-serif; font-weight: bold; color: #454545; display: inline-block; padding: 0 10px 0 0; }
 
 .navbar-toggle__icon-bar { vertical-align: middle; display: inline-block; height: 18px; }
 
@@ -1805,7 +1805,7 @@ blockquote { border-color: #f7c51e; }
 @media (min-width: 1450px) { body.boxed .jumbotron__content p { margin: 0 0 18px 0; } }
 
 /* 05.12. Buttons */
-#comments-submit-button, .btn { font-family: "Montserrat", Helvetica, Arial, sans-serif; padding: 15px 18px; line-height: 1; border-radius: 2px; transition: all 200ms ease-out; border: 2px solid transparent; }
+#comments-submit-button, .btn { font-family: "Lato", Helvetica, Arial, sans-serif; padding: 15px 18px; line-height: 1; border-radius: 2px; transition: all 200ms ease-out; border: 2px solid transparent; }
 #comments-submit-button:focus, #comments-submit-button:active:focus, .btn:focus, .btn:active:focus { outline: 0; }
 
 #comments-submit-button, .btn-primary { background: #f7c51e; border-color: #f7c51e; color: #454545; }
@@ -1813,7 +1813,7 @@ blockquote { border-color: #f7c51e; }
 #comments-submit-button:focus, .btn-primary:focus { background: #f7c51e; border-color: #f7c51e; color: #454545; }
 #comments-submit-button:active, .btn-primary:active { background: #e4b108; border-color: rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.125); color: #333333; }
 
-.post-password-form > p > input { padding: 6px 10px 3px 10px; font-size: 14px; font-family: "Montserrat", Helvetica, Arial, sans-serif; border-radius: 2px; transition: all 200ms ease-out; background: #f7c51e; border: 1px solid #f7c51e; color: #454545; }
+.post-password-form > p > input { padding: 6px 10px 3px 10px; font-size: 14px; font-family: "Lato", Helvetica, Arial, sans-serif; border-radius: 2px; transition: all 200ms ease-out; background: #f7c51e; border: 1px solid #f7c51e; color: #454545; }
 .post-password-form > p > input:hover { background: #eeb908; border-color: #eeb908; color: #333333; }
 .post-password-form > p > input:active { background: #e4b108; border-color: rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.125); color: #333333; }
 
@@ -1856,7 +1856,7 @@ blockquote { border-color: #f7c51e; }
 
 .icon-box__title { font-size: 16px; color: #fff; line-height: 1.4; font-weight: 600;     white-space: nowrap; }
 .icon-box__email-link { font-weight: 600; font-size: 16px; line-height: 1.4%; color: #fff !important; }
-.icon-box__title2 { margin: 4px -3px 0 0; font-size: 20px; color: #dddddd; white-space: nowrap; font-family: "Montserrat", Helvetica, Arial, sans-serif; line-height: 1.1; }
+.icon-box__title2 { margin: 4px -3px 0 0; font-size: 20px; color: #dddddd; white-space: nowrap; font-family: "Lato", Helvetica, Arial, sans-serif; line-height: 1.1; }
 
 .icon-box__subtitle { color: #fff; font-weight: 600; font-size: 16px; line-height: 1.4; }
 
@@ -1905,7 +1905,7 @@ html.flexbox .widget-icon-box .icon-box__text { -webkit-flex-direction: column; 
 
 .testimonial__quote::after { position: absolute; content: ''; width: 0; height: 0; border-style: solid; border-width: 20px 20px 0 0; border-color: #ffffff transparent transparent transparent; bottom: -20px; left: 30px; }
 
-.testimonial__author { font-weight: bold; color: #333333; font-family: "Montserrat", Helvetica, Arial, sans-serif; font-style: normal; }
+.testimonial__author { font-weight: bold; color: #333333; font-family: "Lato", Helvetica, Arial, sans-serif; font-style: normal; }
 
 .testimonial__rating { color: #f7c51e; }
 
@@ -1923,7 +1923,7 @@ html.flexbox .widget-icon-box .icon-box__text { -webkit-flex-direction: column; 
 .logo-panel img:hover { border: 1px solid #f7c51e; opacity: 1; }
 
 /* Motivational Text */
-.motivational-text { margin: 0; text-align: center; font-family: "Montserrat", Helvetica, Arial, sans-serif; color: #ffffff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12); font-size: 14px; }
+.motivational-text { margin: 0; text-align: center; font-family: "Lato", Helvetica, Arial, sans-serif; color: #ffffff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12); font-size: 14px; }
 @media (min-width: 992px) { .motivational-text { font-size: 20px; padding: 30px 0; } }
 
 /* Featured Page */
@@ -1964,12 +1964,12 @@ html.flexbox .page-box--inline .page-box__title { margin-top: 0; }
 .project__meta-icon { display: inline-block; min-width: 20px; margin-right: 4px; font-size: 120%; text-align: center; }
 .project__navigation li { text-align: center; display: inline-block; width: calc(50% - 15px); min-height: 1px; }
 .project__navigation li:last-of-type { margin-left: 20px; }
-.project__navigation a { background-color: #eeeeee; display: block; padding: 15px; color: #999999 !important; text-transform: uppercase; font-weight: bold; font-family: "Montserrat", Helvetica, Arial, sans-serif; transition: all 200ms ease-out; }
+.project__navigation a { background-color: #eeeeee; display: block; padding: 15px; color: #999999 !important; text-transform: uppercase; font-weight: bold; font-family: "Lato", Helvetica, Arial, sans-serif; transition: all 200ms ease-out; }
 .project__navigation a:hover { color: #333333 !important; text-decoration: none; }
 .project__gallery > a { display: block; margin-bottom: 30px; }
 
 /* 05.15. Pagination */
-.pagination { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+.pagination { font-family: "Lato", Helvetica, Arial, sans-serif; }
 .pagination > .page-numbers { padding-top: 30px; border-top: 1px solid rgba(0, 0, 0, 0.08); }
 .pagination > .page-numbers .dots { display: block; padding: 12px 0; }
 .pagination ul { list-style: none; padding: 0; }
@@ -2033,7 +2033,7 @@ html.flexbox .page-box--inline .page-box__title { margin-top: 0; }
 /* Custom Sidebar Menu */
 .sidebar .widget_nav_menu ul { list-style: none; padding: 0; }
 .sidebar .widget_nav_menu ul > li { margin: 2px 0; }
-.sidebar .widget_nav_menu ul > li > a { font-size: 13px; transition: all 200ms ease-out; display: block; background: #eeeeee; color: #323a45; font-family: "Montserrat", Helvetica, Arial, sans-serif; border-radius: 2px; padding: 18px 20px; }
+.sidebar .widget_nav_menu ul > li > a { font-size: 13px; transition: all 200ms ease-out; display: block; background: #eeeeee; color: #323a45; font-family: "Lato", Helvetica, Arial, sans-serif; border-radius: 2px; padding: 18px 20px; }
 .sidebar .widget_nav_menu ul > li > a:hover { background: #f7c51e; color: #333333; text-decoration: none; }
 .sidebar .widget_nav_menu ul > li > a:active { background: #e4b108; border-color: rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.125); color: #333333; }
 .sidebar .widget_nav_menu ul > li.current-menu-item a { background: #f3bd09; color: #333333; text-decoration: none; }
@@ -2073,7 +2073,7 @@ html.flexbox .page-box--inline .page-box__title { margin-top: 0; }
 
 /* Calendar Widget */
 .widget_calendar #wp-calendar { width: 100%; }
-.widget_calendar caption { font-family: "Montserrat", Helvetica, Arial, sans-serif; background-color: #f7c51e; border-radius: 2px; color: #333333; padding: 5px 0; font-size: 12px; text-align: center; }
+.widget_calendar caption { font-family: "Lato", Helvetica, Arial, sans-serif; background-color: #f7c51e; border-radius: 2px; color: #333333; padding: 5px 0; font-size: 12px; text-align: center; }
 .widget_calendar thead tr th { padding: 5px 0; text-align: center; background: #dedede; color: #666666; border: 1px solid #f2f2f2; }
 .widget_calendar tbody tr td { text-align: center; border: 1px solid #f2f2f2; padding: 3px 0; }
 .widget_calendar tfoot tr td { border-top: 1px solid #dedede; padding: 5px 5px; }
@@ -2148,7 +2148,7 @@ a > img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 .panel-grid .widget-title { font-size: 30px; margin-top: 0; }
 
-.read-more { font-family: "Montserrat", Helvetica, Arial, sans-serif; font-weight: bold; display: inline-block; text-transform: uppercase; font-size: 13px; }
+.read-more { font-family: "Lato", Helvetica, Arial, sans-serif; font-weight: bold; display: inline-block; text-transform: uppercase; font-size: 13px; }
 .read-more:hover { text-decoration: underline; }
 
 .read-more--page-box { margin-top: 4.5px; }
@@ -3328,7 +3328,7 @@ padding-top: 6px;
 color:#999;
 font-size: 12px;
 font-weight: 700;
-font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+font-family: 'Lato',Helvetica,Arial,sans-serif;
 text-decoration:none;
 text-transform:uppercase;
 }
@@ -3340,7 +3340,7 @@ padding: 14px 25px;
 border: none;
 font-size: 12px;
 font-weight: 700;
-font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+font-family: 'Lato',Helvetica,Arial,sans-serif;
 display: inline-block;}
 
 @media (min-width: 992px){
@@ -3497,7 +3497,7 @@ a.close{position:absolute;cursor:pointer;top:5px;right:5px;text-decoration:none;
 }
 
 .divh4 {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: bold;
     letter-spacing: -0.5px;
     font-size: 18px;
@@ -3508,7 +3508,7 @@ a.close{position:absolute;cursor:pointer;top:5px;right:5px;text-decoration:none;
 .divslideboxh4 {
     color: #333;
     font-size: 15px;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: bold;
     letter-spacing: -0.5px;
     line-height: 1.1;
@@ -3525,7 +3525,7 @@ a.close{position:absolute;cursor:pointer;top:5px;right:5px;text-decoration:none;
 }
 .titleh5 {
     font-size: 13px;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #333333;
     letter-spacing: -0.5px;
