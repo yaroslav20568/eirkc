@@ -363,10 +363,12 @@ footer {
 .intro__card {
     width: 33.3333333333%;
     min-height: 433px;
+	max-height: 433px;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(20px);
     transform: translate3d(0,0,0);
-    padding: 101px 20px 90px;
+    /* padding: 101px 20px 90px; */
+	padding: 120px 20px 70px;
     cursor: pointer;
 
     display: flex;
@@ -614,8 +616,12 @@ footer {
     color: #fff !important;
 }
 
-.first.active a {
+.first {
 	font-family: 'Lato', sans-serif;
+}
+
+.first.active a {
+	/* font-family: 'Lato', sans-serif; */
     padding: 20px 0 20px 0;
 }
 
@@ -1430,7 +1436,7 @@ footer {
     }
 
     .header {
-        position: static;
+        position: static !important;
         background-color: #7F91AC ;
     }
 
@@ -1472,6 +1478,7 @@ footer {
 	.intro__cards {
 		flex-wrap: wrap;
 		gap: 25px 10px;
+		align-items: stretch;
 	}
 
 	.intro__card {
